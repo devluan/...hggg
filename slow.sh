@@ -1,10 +1,11 @@
-ip=bra.hackkcah.xyz
+ip=brad.hackkcah.xyz
 cd /usr/local
 wget https://golang.org/dl/go1.16.2.linux-amd64.tar.gz
 tar xvf go1.16.2.linux-amd64.tar.gz
 export GOROOT=/usr/local/go
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 cd /root
+apt install git -y
 git clone https://www.bamsoftware.com/git/dnstt.git temp
 mv /root/temp /root/dnstt
 rm -rf temp
