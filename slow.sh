@@ -1,4 +1,4 @@
-ip=brad.hackkcah.xyz
+ip=brabreadth.boxnetslowdns.com
 cd /usr/local
 wget https://golang.org/dl/go1.16.2.linux-amd64.tar.gz
 tar xvf go1.16.2.linux-amd64.tar.gz
